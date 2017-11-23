@@ -1,0 +1,79 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\Users\Patri\Documents\Visual Studio 2017\Projects\matrix2\matrix2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2017 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\kernel.cu.obj "D:\Users\Patri\Documents\Visual Studio 2017\Projects\matrix2\matrix2\kernel.cu" 
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(51): warning : a __shared__ variable "ciclo" cannot be directly written in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(60): warning : a __shared__ variable "x" cannot be directly written in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(66): warning : a __shared__ variable "dimension" cannot be directly written in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(67): warning : address of a __shared__ variable "dimension" cannot be directly taken in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(68): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(72): warning : a __shared__ variable "cram" cannot be directly written in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(73): warning : address of a __shared__ variable "cram" cannot be directly taken in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(75): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(76): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(78): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(80): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(81): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(83): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(88): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(89): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(92): warning : a __shared__ variable "x" cannot be directly written in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(93): warning : address of a __shared__ variable "x" cannot be directly taken in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(94): warning : a __shared__ variable "x" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(99): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(100): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(101): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(107): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(107): warning : a __shared__ variable "cram" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(108): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(113): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(114): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(117): warning : a __shared__ variable "ciclo" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(118): warning : a __shared__ variable "ciclo" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(118): warning : a __shared__ variable "ciclo" cannot be directly written in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(119): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(120): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(121): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(127): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(127): warning : a __shared__ variable "dimension" cannot be directly written in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(128): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(129): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(131): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(135): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(136): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(140): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(141): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(143): warning : a __shared__ variable "dimension" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(153): warning : a __shared__ variable "cram" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(153): warning : a __shared__ variable "cram" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(166): warning : a __shared__ variable "det00" cannot be directly written in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(177): warning : a __shared__ variable "det00" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(177): warning : a __shared__ variable "det00" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(181): warning : a __shared__ variable "det00" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(182): warning : a __shared__ variable "det00" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(183): warning : a __shared__ variable "det00" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(204): warning : a __shared__ variable "cram" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(218): warning : a __shared__ variable "det00" cannot be directly written in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(230): warning : a __shared__ variable "det00" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(230): warning : a __shared__ variable "det00" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(234): warning : a __shared__ variable "det00" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(235): warning : a __shared__ variable "det00" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(236): warning : a __shared__ variable "det00" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(237): warning : a __shared__ variable "det00" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(294): warning : a __shared__ variable "temp" cannot be directly written in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(300): warning : a __shared__ variable "temp" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(300): warning : a __shared__ variable "temp" cannot be directly written in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(306): warning : a __shared__ variable "cram" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(307): warning : a __shared__ variable "temp" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(308): warning : a __shared__ variable "temp" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(313): warning : a __shared__ variable "temp1" cannot be directly written in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(314): warning : a __shared__ variable "temp1" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(320): warning : a __shared__ variable "temp" cannot be directly written in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(338): warning : a __shared__ variable "temp" cannot be directly written in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(339): warning : a __shared__ variable "temp" cannot be directly read in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(407): warning : a __shared__ variable "temp" cannot be directly written in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(426): warning : a __shared__ variable "temp" cannot be directly written in a host function
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(428): warning : a __shared__ variable "temp" cannot be directly read in a host function
+  kernel.cu
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(169): warning C4244: 'argumento': conversión de 'long double' a 'int'; posible pérdida de datos
+D:/Users/Patri/Documents/Visual Studio 2017/Projects/matrix2/matrix2/kernel.cu(222): warning C4244: 'argumento': conversión de 'long double' a 'int'; posible pérdida de datos
+LINK : fatal error LNK1104: no se puede abrir el archivo 'D:\Users\Patri\Documents\Visual Studio 2017\Projects\matrix2\x64\Release\matrix2.exe'
